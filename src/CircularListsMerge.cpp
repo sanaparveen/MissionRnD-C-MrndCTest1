@@ -34,7 +34,6 @@ struct node{
 };
 struct node* mergeList(struct node* head1, struct node* head2)
 {
-
 	if (head1 == NULL)
 		return(head2);
 
